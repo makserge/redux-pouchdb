@@ -1,8 +1,8 @@
 {
   "name": "redux-pouchdb",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Sync store state to pouchdb",
-  "main": "src/index.js",
+  "main": "lib/index.js",
   "scripts": {
     "prepublish": "npm run build",
     "test": "istanbul cover babel-tape-runner tests/*.js"
@@ -27,12 +27,6 @@
     "url": "https://github.com/vicentedealencar/redux-pouchdb/issues"
   },
   "homepage": "https://github.com/vicentedealencar/redux-pouchdb",
-  "babel": {
-    "presets": [
-      "es2015",
-      "stage-0"
-    ]
-  },
   "dependencies": {
     "array.from": "^1.0.2",
     "deep-equal": "^1.0.1"
